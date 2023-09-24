@@ -51,7 +51,6 @@ score = 0
 
 def show_score(choice, color, font, size):
 
-	# creating font object score_font
 	score_font = pygame.font.SysFont(font, size)
 	
 	score_surface = score_font.render('Score : ' + str(score), True, color)
@@ -63,7 +62,6 @@ def show_score(choice, color, font, size):
 
 def game_over():
 
-	# creating font object my_font
 	my_font = pygame.font.SysFont('DM Sans', 50)
 	
 
